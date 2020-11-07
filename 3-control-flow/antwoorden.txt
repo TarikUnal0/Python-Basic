@@ -1,0 +1,36 @@
+**Opdracht**:
+
+1. 
+else:
+    print("a is niet gelijk aan 5")
+
+
+
+**Vraag**: Werkt dat ook zo met meerdere IF statements? 
+**Antwoord**: Nee dan worden ze allemaal uitgevoerd
+
+**Opdracht**: Schrijf code die:
+
+- Voor een variabele a test op 4 mogelijke condities: a =0, a=1, a=2, a=3.
+- Is zo’n conditie True, dan wordt een print() statement uitgevoerd met de
+    tekst: “a is gelijk aan …”
+- Voeg er een else aan toe die bij eventuele andere waarden van a wordt
+    uitgevoerd.
+- Maak hierbij gebruik van elif.
+ 
+**Antwoord**:
+ if (a == 0):
+    print("a is gelijk aan 0")
+
+elif (a == 1):
+    print("a is gelijk aan 1")
+
+elif (a == 2):
+    print("a is gelijk aan 2")
+
+elif (a == 3):
+    print("a is gelijk aan 3")
+
+else:
+    ("a is niet gelijk aan 1 t/m 3")
+

@@ -1,0 +1,37 @@
+**Opgaven:**
+
+1. Voeg een statement toe waarmee je het type van “Provinciehoofdsteden”
+    uitprint.
+
+2. Voeg een statement (1 regel) toe waarmee je de inhoud van deze dictionary
+    uitprint.
+
+3. Voeg nu aan de dictionary provinciehoofsteden 3 provincies toe. In eerste
+    instantie doe je dat door een grotere dictionary te maken, zoals in het
+    voorbeeld hierboven. Je voegt dan enkele regels toe aan deze code.
+
+
+**Antwoorden**:
+1. print(type(Provinciehoofdsteden))
+
+2. print(Provinciehoofdsteden)
+
+3. Provinciehoofdsteden = {
+'Noord_Holland' : 'Amsterdam',
+'Zuid_Holland' : 'Den_Haag',
+'Utrecht' : 'Utrecht',
+'Limburg' : 'Maastricht',
+'Friesland' : 'Leeuwarden',
+'Flevoland' : 'Lelystad',
+}
+
+
+
+1. 
+Provinciehoofdsteden['Zeeland'] = 'Middelburg'
+   Provinciehoofdsteden['Groningen'] = 'Groningen'
+   Provinciehoofdsteden['Brabant'] = 'Den_Bosch'
+
+
+1. 
+Provinciehoofdsteden['Zeeland'] = 'Amsterdam'

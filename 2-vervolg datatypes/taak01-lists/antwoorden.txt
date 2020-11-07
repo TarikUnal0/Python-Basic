@@ -1,0 +1,21 @@
+**Vraag**: Van welk datatype zijn alle elementen van deze lijst?
+**Antwoord**: Een string
+
+**Vraag**: Welk antwoord zou len(maanden) geven?
+**Antwoord**: 12
+
+**Opgave**: zoals je ziet is één element van deze lijst verkeerd gespeld. Er
+staat ‘july’ in plaats van ‘juli’. Schrijf een statement waardoor ‘july’
+vervangen wordt door ‘juli’.
+**Antwoord**: maanden[6] = "juli"
+
+**Opgave**: Maak nu een programmaatje waarin je de inhoud van de lijst maanden
+print. Hierbij staat elk element op een eigen regel, zoals
+**Antwoord**: 
+for x in maanden:
+  print(x)
+
+**Opgave**: Maak een statement waarmee je de lengte van een element (zoals
+‘februari’) uit de lijst print
+**Antwoord**: len(maanden[1])
+
