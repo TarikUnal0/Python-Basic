@@ -1,0 +1,24 @@
+We beginnen met de definitie van de functie. Onthoudt dat functies altijd aan
+het begin van jouw programma gedefinieerd moeten worden.  
+**Vraag**: Kun je bedenken waarom dat zo is?
+
+**Antwoord**: zodat de andere statements weten waarmee ze moeten werken
+
+
+**Vraag**: Leg uit wat reversed() precies doet. :
+
+**Antwoord**: de reversed() functie draait de volgorde van de array om.
+
+**Opdracht**:
+
+def celciustofahrenheit():
+    a = 26 
+    b = a * 1.8
+    c = b + 32
+    print(a, "celcius graden is gelijk aan", c)
+    return
+celciustofahrenheit()
+
+
+
+
