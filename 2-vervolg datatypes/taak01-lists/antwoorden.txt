@@ -17,5 +17,5 @@ for x in maanden:
 
 **Opgave**: Maak een statement waarmee je de lengte van een element (zoals
 ‘februari’) uit de lijst print
-**Antwoord**: len(maanden[1])
+**Antwoord**: print(len(maanden[1]))
 
